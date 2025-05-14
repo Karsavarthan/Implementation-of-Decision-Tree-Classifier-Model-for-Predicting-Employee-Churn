@@ -28,10 +28,10 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 
 10.Predict whether a new employee with specific features will leave or not.
 ## Program:
-
+```
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
-Developed by: HENRIPRASATH S
-RegisterNumber:  212223230077
+Developed by: Karsavarthan R R
+RegisterNumber:  212223230100
 
 
 import pandas as pd
@@ -69,7 +69,7 @@ accuracy = metrics.accuracy_score(y_test,y_pred)
 accuracy
 
 dt.predict([[0.5,0.8,9,200,6,0,1,2]])
-
+```
 
 ## Output:
 
